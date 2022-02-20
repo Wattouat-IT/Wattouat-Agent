@@ -17,7 +17,7 @@ tdp=$(cat /bin/wattouat_agent/cpu_proc.txt | grep "$name_cpu")
 tdp=$(echo $tdp | sed 's/.*=//')
 
 n=60
-runtime="2 minute"
+runtime="60 minute"
 endtime=$(date -ud "$runtime" +%s)
 cpu2=0
 
