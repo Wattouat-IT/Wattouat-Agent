@@ -14,8 +14,8 @@ mkdir /bin/wattouat_agent
 
 # Up Service
 cp wattouat_agent.service /etc/systemd/system/
-cp fonction/wattouat_agent_service.sh /usr/bin/ 
-chmod +x /bin/wattouat/wattouat_agent_service.sh
+cp wattouat_agent_service.sh /bin/wattouat_agent
+chmod +x /bin/wattouat_agent/wattouat_agent_service.sh
 
 # Function
 cp -R fonction /bin/wattouat_agent/

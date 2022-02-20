@@ -1,2 +1,2 @@
 apt update
-apt install -y mariadb bc
+apt install -y mariadb-server bc

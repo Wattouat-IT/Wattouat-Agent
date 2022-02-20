@@ -1,11 +1,10 @@
-
 #!/bin/bash
 
 ip=$(cat /bin/wattouat_agent/wattouat_agent.conf | grep "ip")
 ip=$(echo $ip | sed 's/.*=//')
 
-id=$(cat /bin/wattouat_agent/wattouat_agent.conf | grep "id_node_info")
-id=$(echo $id_node_info | sed 's/.*=//')
+id_node_info=$(cat /bin/wattouat_agent/wattouat_agent.conf | grep "id_node_info")
+id_node_info=$(echo $id_node_info | sed 's/.*=//')
 
 cpu_model=$(cat /proc/cpuinfo  | grep "model name")
 cpu_model=$(echo $cpu_model | sed 's/.*://')
