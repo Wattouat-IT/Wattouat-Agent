@@ -20,8 +20,8 @@ chmod +x /bin/wattouat_agent/wattouat_agent_service.sh
 # Function
 cp -R fonction /bin/wattouat_agent/
 
-bash /bin/wattouat_agent/fonction/mysql/cpu.sh
 bash /bin/wattouat_agent/fonction/mysql/node_info.sh
+bash /bin/wattouat_agent/fonction/mysql/cpu.sh
 
 # Config file
 
