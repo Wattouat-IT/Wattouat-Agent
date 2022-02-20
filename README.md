@@ -40,7 +40,3 @@ systemctl enable wattouat_agent
 ``` shell 
 systemctl start wattouat_agent
 ```
-
-## Command 
-
-- wattouat_node : add your host on the server

@@ -2,5 +2,5 @@
 
 while [ : ]
 do
-    bash /bin/wattouat_agent/fonction/mysql/cpu.sh
+    bash /bin/wattouat_agent/fonction/mysql/cpu_kwh.sh
 done
