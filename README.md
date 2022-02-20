@@ -9,11 +9,21 @@ The first release was only tested and developed on Debian Buster. Don't try with
 - Git (apt install git) 
 - Be root (su) 
 
-## Server installation
+## Clone the repositorie
 
 ``` shell 
-git clone https://github.com/Wattouat-IT/Wattouat-Agent.git
-cd Wattouat-Agent
+git clone https://github.com/Wattouat-IT/Wattouat-Server.git
+```
+
+## Edit the configuration file
+
+Edit the file ``` wattouat.conf```
+
+ - ip : your local ip who run the database
+
+## Agent installation
+
+``` shell 
 bash wattouat_agent_install.sh
 ```
 
@@ -31,6 +41,6 @@ systemctl enable wattouat_agent
 systemctl start wattouat_agent
 ```
 
-## Configuration file 
+## Command 
 
-Into the file ```/bin/wattouat_agent/``` edit the file with yout configuration
+- wattouat_node : add your host on the server
