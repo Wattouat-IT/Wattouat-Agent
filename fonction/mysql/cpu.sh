@@ -21,7 +21,7 @@ mysql -u admin -proot elisa -h $ip -e "INSERT INTO cpu (cpu_model, cpu_mhz, cpu_
 
 sleep 1
 
-cpu_id=$(mysql -u admin -proot elisa -h $ip -e "SELECT MAX( id ) FROM node_info;" | sed 's/[^0-9]//g')
+cpu_id=$(mysql -u admin -proot elisa -h $ip -e "SELECT MAX( id ) FROM cpu;" | sed 's/[^0-9]//g')
 cpu_id=$(echo $cpu_id)
 echo "# ID of this CPU node into elisa database" >> /bin/wattouat_agent/wattouat_agent.conf
 echo "cpu_id=$cpu_id" >> /bin/wattouat_agent/wattouat_agent.conf
