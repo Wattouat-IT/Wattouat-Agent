@@ -27,7 +27,6 @@ cp cpu_proc.txt /bin/wattouat_agent/
 
 # Création des commandes 
 echo "alias wattouat_node='bash /bin/wattouat_agent/fonction/mysql/node_info.sh'" >> ~/.bashrc
-exec bash 
 
 echo ""
 echo "/******************************************************/"
