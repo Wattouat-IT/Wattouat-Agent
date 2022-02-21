@@ -40,3 +40,9 @@ systemctl enable wattouat_agent
 ``` shell 
 systemctl start wattouat_agent
 ```
+
+## Uninstall Wattouat Agent
+
+Go into ```/bin/wattouat_agentw/fonction```
+
+Execute file ```wattouat_agent_uninstall.sh```
