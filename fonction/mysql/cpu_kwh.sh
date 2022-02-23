@@ -37,5 +37,4 @@ cpu_core=$(echo $cpu_core | sed 's/.*://')
 d=100
 e=$(bc -l <<< "$cpu_core * $tdp * $moyen_cpu / $d")
 
-mysql -u admin -proot elisa -h $ip -e "INSERT INTO kwh (kwh, cpu_id) VALUES ('$e', '$cpu_id');"
-mysql -u admin -proot elisa -h $ip -e "INSERT INTO temps (temps, cpu_id) VALUES (NOW(), '$cpu_id');"
+mysql -u admin -proot elisa -h $ip -e "INSERT INTO kwh (kwh, temps, cpu_id) VALUES ('$e', NOW(), '$cpu_id');"
