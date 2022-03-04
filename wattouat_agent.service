@@ -2,12 +2,15 @@
 Description=Wattouat Agent Service
 ConditionFileIsExecutable=/bin/wattouat_agent/wattouat_agent_service.sh
 After=network.target
+After=mysql.service
 
 [Service]
 Type=simple
 RemainAfterExit=yes
 ExecStart=/bin/wattouat_agent/wattouat_agent_service.sh
-KillMode=process
+KillMode=all
+StandardOutput=append:/var/log/wattouat_agent/log1.log
+StandardError=append:/var/log/wattouat_agent/log2.log
 Restart=on-failure
 
 [Install]

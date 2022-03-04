@@ -14,6 +14,7 @@ case $n in
 
 	  rm -rf /etc/systemd/system/wattouat_agent.service
 	  rm -rf /bin/wattouat_agent
+	  rm -rf /var/log/wattouat_agent
 	  ;;
   2) echo "Exit"
 	  exit
