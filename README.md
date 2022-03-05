@@ -1,10 +1,13 @@
 # Wattouat Agent
 
-## Prerequisites
 
-- Internet connection
-- Git
-- Root
+## Table of Contents
+
+- [Stable version](#stable-version)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Log file](#log-file)
+- [Uninstall Wattouat Server](#uninstall-wattouat-server)
 
 ## Stable version
 
@@ -26,25 +29,33 @@ Supported version :
     - [X] 18.04 LTS
         - Status : Stable
 
-## Clone the repositorie
+## Prerequisites
+
+- Internet connection
+- Git
+- Root
+
+## Installation 
+
+### Clone the repositorie
 
 ``` shell 
 git clone https://github.com/Wattouat-IT/Wattouat-Server.git
 ```
 
-## Edit the configuration file
+### Edit the configuration file
 
 Edit the file ``` wattouat.conf```
 
  - ip : your local ip who run the database
 
-## Agent installation
+### Agent installation
 
 ``` shell 
 bash wattouat_agent_install.sh
 ```
 
-## Agent Wattouat
+### Agent Wattouat
 
 Launch the service
 
@@ -57,6 +68,16 @@ systemctl enable wattouat_agent
 ``` shell 
 systemctl start wattouat_agent
 ```
+
+## Log file 
+
+Go into ```/var/log/wattouat_agent/```
+
+There are 2 files: 
+
+First is for Standard Output
+
+Second is for Standard Error
 
 ## Uninstall Wattouat Agent
 
