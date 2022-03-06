@@ -7,7 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Log file](#log-file)
-- [Uninstall Wattouat Server](#uninstall-wattouat-server)
+- [Uninstall Wattouat Agent](#uninstall-wattouat-agent)
 
 ## Stable version
 
