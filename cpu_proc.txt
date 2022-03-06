@@ -1,1 +1,9 @@
-Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz=40 
+# INTEL
+
+## INTEL CORE I7
+Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz=47
+Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz=45
+
+## INTEL CORE I5
+Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz=15
+
