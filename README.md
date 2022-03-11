@@ -48,6 +48,7 @@ git clone https://github.com/Wattouat-IT/Wattouat-Server.git
 Edit the file ``` wattouat.conf```
 
  - ip : your local ip who run the database
+ - service : under "# Service scanned". Place the services for which you want to calculate the cost, separate with a comma. Example: <service1>,<service2>,<service3>,<serviceN>
 
 ### Agent installation
 
