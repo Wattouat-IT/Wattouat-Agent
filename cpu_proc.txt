@@ -7,3 +7,7 @@ Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz=45
 ## INTEL CORE I5
 Intel(R) Core(TM) i5-8257U CPU @ 1.40GHz=15
 
+# AMD
+
+## AMD Athlon
+AMD Athlon(tm) Dual Core Processor 4450B=45
