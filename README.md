@@ -47,7 +47,7 @@ And go inside the folder Wattouat-Agent
 
 ### Edit the configuration file
 
-Edit the file ``` wattouat.conf```
+Edit the file ``` wattouat_agent.conf```
 
  - ip : your local ip who run the database
  - service : under "# Service scanned". Place the services for which you want to calculate the cost, separate with a comma. Example: ```<service1>,<service2>,<service3>,<serviceN>```
